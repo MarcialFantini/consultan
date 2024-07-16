@@ -26,8 +26,8 @@ export const WayItem = ({
         </p>
 
         <p className="text-purple-500 pl-4 border-l-2 border-purple-500 ">
-          "Simform is quick to identify larger problem with the Software so we
-          decided to expand our scope to build new modules"
+          {`"Simform is quick to identify larger problem with the Software so we
+          decided to expand our scope to build new modules"`}
         </p>
       </header>
       <picture className="max-h-[300px] rounded-lg overflow-hidden shadow-lg ">
