@@ -34,8 +34,13 @@ export const ServicesOfferHome = () => {
 
         <div className="grid items-center justify-center">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 flex-row gap-4">
-            {services.map((item) => {
-              return <CardServicesItem item={item}></CardServicesItem>;
+            {services.map((item, index) => {
+              return (
+                <CardServicesItem
+                  key={index + "services"}
+                  item={item}
+                ></CardServicesItem>
+              );
             })}
           </div>
         </div>
