@@ -14,7 +14,7 @@ export const WayOfBuilding = () => {
         {arr.map((item, index) => {
           return (
             <WayItem
-              key={item.src + index + " way of building"}
+              key={index + " way of building"}
               item={{ src: item, toggle: index % 2 === 0 }}
             ></WayItem>
           );
