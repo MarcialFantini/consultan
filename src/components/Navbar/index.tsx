@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import srcImage from "../../../public/vercel.svg";
 const links = ["About us", "Services", "Blog", "How it works"];
 
 export const NavbarComponent = () => {
@@ -7,7 +7,7 @@ export const NavbarComponent = () => {
     <header className=" relative top-0 flex flex-row justify-around p-4 shadow-lg">
       <div className="flex flex-row items-center">
         <picture>
-          <Image src={""} alt=""></Image>
+          <Image src={srcImage} alt=""></Image>
         </picture>
         <h1 className=" text-xl font-bold">Company</h1>
       </div>

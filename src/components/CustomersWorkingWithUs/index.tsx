@@ -76,6 +76,7 @@ export const CustomersWorkingWithUs = () => {
           {commentaries.map((item, index) => {
             return (
               <WorkingItem
+                key={item + index + " commentaries"}
                 item={{ src: imgDefaultProfile, active: step === index }}
               ></WorkingItem>
             );

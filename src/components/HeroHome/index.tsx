@@ -24,6 +24,7 @@ export const HeroHome = () => {
         </header>
         <picture className="w-full ">
           <Image
+            priority={true}
             className="w-full h-full object-contain"
             src={srcImage}
             alt="main image"

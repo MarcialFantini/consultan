@@ -1,4 +1,3 @@
-import Image from "next/image";
 import srcImage from "./Rectangle 17.png";
 import { WayItem } from "../WayItem";
 
@@ -14,7 +13,10 @@ export const WayOfBuilding = () => {
       <div className="flex flex-col gap-8">
         {arr.map((item, index) => {
           return (
-            <WayItem item={{ src: item, toggle: index % 2 === 0 }}></WayItem>
+            <WayItem
+              key={item.src + index + " way of building"}
+              item={{ src: item, toggle: index % 2 === 0 }}
+            ></WayItem>
           );
         })}
       </div>
