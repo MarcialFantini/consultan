@@ -1,10 +1,15 @@
 import { HeroHome } from "@/components/HeroHome";
-import Image from "next/image";
+import { LeadingCompaniesHome } from "@/components/LeadingCompaniesHome";
+import { ServicesOfferHome } from "@/components/ServicesOfferHome";
+import { WeMake } from "@/components/WeMake";
 
 export default function Home() {
   return (
     <main className="">
       <HeroHome></HeroHome>
+      <ServicesOfferHome></ServicesOfferHome>
+      <LeadingCompaniesHome></LeadingCompaniesHome>
+      <WeMake></WeMake>
     </main>
   );
 }

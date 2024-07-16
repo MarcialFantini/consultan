@@ -3,9 +3,9 @@ import srcImage from "../../../public/image/home/converted-0.webp";
 
 export const HeroHome = () => {
   return (
-    <section>
-      <article className="grid grid-cols-2 items">
-        <header className=" max-w-[500px] flex flex-col p-4 justify-center items-center gap-4 ml-auto">
+    <section className="flex items-center justify-center">
+      <article className="grid grid-cols-2 items max-w-[1200px]">
+        <header className="  flex flex-col p-4 justify-center items-center gap-4 ml-auto">
           <div>
             <h2 className=" text-4xl ">
               Great <span className="text-[#DE4396]">Product</span> is
@@ -22,7 +22,7 @@ export const HeroHome = () => {
             </button>
           </div>
         </header>
-        <picture className="w-full max-h-[500px]">
+        <picture className="w-full ">
           <Image
             className="w-full h-full object-contain"
             src={srcImage}
