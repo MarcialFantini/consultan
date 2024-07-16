@@ -1,6 +1,8 @@
+import { CustomersWorkingWithUs } from "@/components/CustomersWorkingWithUs";
 import { HeroHome } from "@/components/HeroHome";
 import { LeadingCompaniesHome } from "@/components/LeadingCompaniesHome";
 import { ServicesOfferHome } from "@/components/ServicesOfferHome";
+import { WayOfBuilding } from "@/components/WayOfBuilding";
 import { WeMake } from "@/components/WeMake";
 
 export default function Home() {
@@ -9,7 +11,9 @@ export default function Home() {
       <HeroHome></HeroHome>
       <ServicesOfferHome></ServicesOfferHome>
       <LeadingCompaniesHome></LeadingCompaniesHome>
+      <CustomersWorkingWithUs></CustomersWorkingWithUs>
       <WeMake></WeMake>
+      <WayOfBuilding></WayOfBuilding>
     </main>
   );
 }

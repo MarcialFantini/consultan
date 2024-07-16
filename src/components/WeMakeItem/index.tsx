@@ -22,7 +22,7 @@ export const WeMakeItem = () => {
           management boasts of over 20 years of rich and varied experience in
           the shipping and freight forwarding industry.
         </p>
-        <button className="text-purple-500 self-end">Read more {">"}</button>
+        {/* <button className="text-purple-500 self-end">Read more {">"}</button> */}
       </header>
     </article>
   );
