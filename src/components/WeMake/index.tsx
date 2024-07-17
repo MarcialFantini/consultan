@@ -5,7 +5,7 @@ const makeItem = ["", "", ""];
 export const WeMake = () => {
   return (
     <section className="bg-[#F7F7FA] py-4">
-      <h2 className="my-[60px] flex flex-col text-center text-2xl">
+      <h2 className="my-[60px] flex flex-col text-center text-2xl lg:text-[50px] gap-4">
         Our recent <span className="font-bold">Case studies</span>
       </h2>
 

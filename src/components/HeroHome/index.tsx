@@ -4,16 +4,16 @@ import srcImage from "../../../public/image/home/converted-0.webp";
 export const HeroHome = () => {
   return (
     <section className="flex items-center justify-center">
-      <article className="grid grid-cols-2 items max-w-[1200px]">
+      <article className="grid lg:grid-cols-2 items max-w-[1200px]">
         <header className="  flex flex-col p-4 justify-center items-center gap-4 ml-auto">
           <div>
-            <h2 className=" text-4xl ">
+            <h2 className=" text-[42px] lg:text-[64px] ">
               Great <span className="text-[#DE4396]">Product</span> is
               <span className="flex gap-2 flex-row font-bold">
                 built by great <span className="text-[#F7666F]"> teams</span>
               </span>
             </h2>
-            <p>
+            <p className="text-[18px] text-[#4A5568]">
               We help build and manage a team of world-class developers to bring
               your vision to life
             </p>

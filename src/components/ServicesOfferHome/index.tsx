@@ -28,7 +28,7 @@ export const ServicesOfferHome = () => {
   return (
     <div className="bg-[#F5F5F5]">
       <section className="w-[95%] max-w-[1400px] m-auto py-8">
-        <h2 className="text-2xl font-bold text-center my-8 ">
+        <h2 className=" text-2xl lg:text-[50px] font-bold text-center my-8 ">
           Services we offer
         </h2>
 

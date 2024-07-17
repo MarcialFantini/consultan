@@ -37,7 +37,7 @@ export const CustomersWorkingWithUs = () => {
 
   return (
     <section className="flex flex-col gap-4">
-      <h2 className="text-center text-2xl flex flex-col">
+      <h2 className="text-center text-2xl lg:text-[50px] gap-4 flex flex-col">
         Why customers love <span className="font-bold"> working with us</span>
       </h2>
       <div className="flex flex-col relative justify-center max-w-[1000px] w-[90%] m-auto ">
