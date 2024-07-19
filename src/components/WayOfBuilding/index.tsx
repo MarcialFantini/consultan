@@ -5,7 +5,7 @@ const arr = [srcImage, srcImage, srcImage];
 
 export const WayOfBuilding = () => {
   return (
-    <section className="p-8 bg-white max-w-[1400px] w-[95%] m-auto  ">
+    <section className="p-8 bg-white max-w-[1400px] w-[95%] m-auto overflow-hidden ">
       <h2 className="my-[60px] flex flex-col text-center text-2xl lg:text-[50px] gap-4">
         Way of building<span className="font-bold">Great Software</span>
       </h2>
@@ -15,7 +15,7 @@ export const WayOfBuilding = () => {
           return (
             <WayItem
               key={index + " way of building"}
-              item={{ src: item, toggle: index % 2 === 0 }}
+              item={{ src: item, toggle: index % 2 === 0, index: index + 1 }}
             ></WayItem>
           );
         })}

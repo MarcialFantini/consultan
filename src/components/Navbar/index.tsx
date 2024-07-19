@@ -5,7 +5,7 @@ import { NavMobile } from "../NavMobile";
 
 export const NavbarComponent = () => {
   return (
-    <header className=" relative top-0 flex flex-row justify-around p-4 shadow-lg">
+    <header className=" z-50 relative top-0 flex flex-row justify-around p-4 shadow-lg">
       <div className="flex flex-row items-center">
         <picture>
           <Image src={srcImage} alt=""></Image>

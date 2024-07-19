@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { motion } from "framer-motion";
+import { itemsChildren } from "@/Varians/homePage";
 
 export const CardServicesItem = ({
   item,
@@ -6,7 +8,10 @@ export const CardServicesItem = ({
   item: { title: string; text: string; srcImage: string };
 }) => {
   return (
-    <article className=" bg-white shadow-lg border-[#57007B] border-solid rounded-xl flex flex-col p-4 gap-4 justify-start items-start">
+    <motion.article
+      variants={itemsChildren}
+      className=" bg-white shadow-lg border-[#57007B] border-solid rounded-xl flex flex-col p-4 gap-4 justify-start items-start"
+    >
       <picture className=" rounded-full border-[#57007B] border-2 p-2">
         <Image src={item.srcImage} alt="logo services"></Image>
       </picture>
@@ -16,6 +21,6 @@ export const CardServicesItem = ({
         properly. Your website is your number one marketing asset because we
         live in a digital age.
       </p>
-    </article>
+    </motion.article>
   );
 };
