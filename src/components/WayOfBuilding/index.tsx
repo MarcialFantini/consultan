@@ -1,6 +1,9 @@
 import srcImage from "./Rectangle 17.png";
 import { WayItem } from "../WayItem";
 import { StaticImageData } from "next/image";
+import srcPlaning from "../../../public/image/home/planing.webp";
+import srcDeveloping from "../../../public/image/home/developing.webp";
+import srcTeam from "../../../public/image/home/team.webp";
 
 const arr: {
   src: string | StaticImageData;
@@ -10,7 +13,7 @@ const arr: {
   frase: string;
 }[] = [
   {
-    src: srcImage,
+    src: srcPlaning,
     title: "Nuestro Plan de Trabajo",
     text1: "Para cumplir tu meta",
     text2: "Construir el equipo adecuado para escalar",
@@ -18,7 +21,7 @@ const arr: {
       "Encontrar el talento adecuado no es fácil. Te ayudamos a encontrar el talento que se adapta a tus necesidades, sigue tus procesos y se queda contigo a largo plazo, a diferencia de los freelancers.",
   },
   {
-    src: srcImage,
+    src: srcDeveloping,
     title: "Desarrollo Personalizado",
     text1: "Creamos soluciones a medida",
     text2: "Soluciones de Software Personalizadas",
@@ -26,7 +29,7 @@ const arr: {
       "Nuestros desarrolladores se sumergen en tu visión, asegurando que cada línea de código se alinee con tus objetivos. Este enfoque personalizado fomenta la innovación y la eficiencia, llevando a resultados excepcionales.",
   },
   {
-    src: srcImage,
+    src: srcTeam,
     title: "Equipo Dedicado",
     text1: "Expertos a tu disposición",
     text2: "Equipos de Desarrollo Dedicados",

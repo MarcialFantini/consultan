@@ -19,12 +19,12 @@ export const WeMakeItem = ({
       variants={variantItems}
       whileInView="onscreen"
       viewport={{ once: true, amount: 0.1 }}
-      className=" shadow-lg rounded-2xl bg-[#F1F2FF] grid sm:grid-cols-2 max-w-[1300px] w-[95%] m-auto"
+      className=" overflow-hidden shadow-lg rounded-2xl bg-[#F1F2FF] grid sm:grid-cols-2 max-w-[1300px] w-[95%] m-auto"
     >
-      <motion.picture className="flex">
+      <motion.picture className="flex overflow-hidden rounded-2xl">
         <Image
           className="w-full h-full object-cover"
-          src={srcImage}
+          src={item.src}
           alt="image of projects makes"
         ></Image>
       </motion.picture>

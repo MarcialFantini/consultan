@@ -30,7 +30,7 @@ export const WayItem = ({
       initial="offscreen"
       whileInView="onscreen"
       viewport={{ once: true, amount: 0.1 }}
-      className={`flex flex-col lg:flex-row w-full items-center justify-evenly py-4 ${
+      className={`flex flex-col lg:flex-row w-full items-center justify-evenly gap-6 py-4 ${
         index % 2 !== 0 ? "lg:flex-row" : "lg:flex-row-reverse"
       } `}
     >

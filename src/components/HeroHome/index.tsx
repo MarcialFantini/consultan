@@ -38,6 +38,7 @@ export const HeroHome = () => {
               de clase mundial para hacer realidad tu visión.
             </motion.p>
             <motion.button
+              whileHover={{ scale: 1.1 }}
               variants={itemsChildren}
               className=" text-[24px] cursor-pointer bg-blue-500 p-2 text-white rounded-lg my-2 shadow-2xl shadow-blue-500"
             >
