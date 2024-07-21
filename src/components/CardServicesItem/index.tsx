@@ -15,12 +15,8 @@ export const CardServicesItem = ({
       <picture className=" rounded-full border-[#57007B] border-2 p-2">
         <Image src={item.srcImage} alt="logo services"></Image>
       </picture>
-      <h3 className=" text-[#57007B] text-xl">Web Design & Development</h3>
-      <p className=" text-[#4A5568]">
-        A Website is an extension of yourself and we can help you to express it
-        properly. Your website is your number one marketing asset because we
-        live in a digital age.
-      </p>
+      <h3 className=" text-[#57007B] text-[24px] ">{item.title}</h3>
+      <p className="  text-[#4A5568]">{item.text}</p>
     </motion.article>
   );
 };

@@ -15,22 +15,16 @@ export const LeadingCompaniesHome = () => {
       <article className="grid lg:grid-cols-2">
         <motion.header
           variants={itemLeftVariant}
-          className="w-full flex flex-col justify-start items-start gap-[50px]"
+          className="w-full flex flex-col justify-start items-start gap-[50px] max-w-[600px]  "
         >
           <h2 className="text-2xl lg:text-[50px] flex flex-col gap-4 ">
-            Leading companies trust us
-            <span className="font-bold">to develop software</span>
+            <span className="font-bold"> Nosotros</span>
           </h2>
-          <p>
-            We <span className="text-purple-500">add development capacity</span>{" "}
-            to tech teams. Our value isn’t limited to building teams but is
-            equally distributed across the project lifecycle. We are a custom
-            software development company that guarantees the successful delivery
-            of your project.
+          <p className="text-[24px]">
+            Transformamos en realidades tus{" "}
+            <span className="text-purple-500">ideas</span> digitales. Ofreciendo
+            soluciones innovadoras y personalizadas para tu negocio.
           </p>
-          <button aria-label="See more information">
-            <span className="text-purple-500">See more Information {"->"}</span>
-          </button>
         </motion.header>
         <motion.picture variants={itemRightVariant} className="max-h-[350px]">
           <Image

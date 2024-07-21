@@ -7,8 +7,12 @@ export const NavbarComponent = () => {
   return (
     <header className=" z-50 relative top-0 flex flex-row justify-around p-4 shadow-lg">
       <div className="flex flex-row items-center">
-        <picture>
-          <Image src={srcImage} alt=""></Image>
+        <picture className="h-[30px] w-auto">
+          <Image
+            className=" object-contain w-full h-full"
+            src={srcImage}
+            alt=""
+          ></Image>
         </picture>
         <h1 className=" text-xl font-bold">Company</h1>
       </div>

@@ -18,28 +18,30 @@ export const HeroHome = () => {
     >
       <motion.article className="grid lg:grid-cols-2 items max-w-[1200px] overflow-hidden">
         <motion.header className=" h-full  flex flex-col p-4 justify-center items-center gap-4 ml-auto">
-          <motion.div className="b" variants={variantItems}>
+          <motion.div className="w-full " variants={variantItems}>
             <motion.h2
               variants={itemsChildren}
               className=" text-[42px] lg:text-[64px] "
             >
-              Great <span className="text-[#DE4396]">Product</span> is
-              <span className="flex gap-2 flex-row font-bold">
-                built by great <span className="text-[#F7666F]"> teams</span>
+              <span className="flex flew-row gap-4">
+                Soluciones <span className="text-[#DE4396]">Web </span>
+              </span>
+              <span className="flex gap-4 flex-row font-bold">
+                Impulsa tu <span className="text-[#F7666F]"> Negocio</span>
               </span>
             </motion.h2>
             <motion.p
               variants={itemsChildren}
-              className="text-[18px] text-[#4A5568]"
+              className="text-[24px] text-[#4A5568]"
             >
-              We help build and manage a team of world-class developers to bring
-              your vision to life
+              Te ayudamos a construir y gestionar un equipo de desarrolladores
+              de clase mundial para hacer realidad tu visión.
             </motion.p>
             <motion.button
               variants={itemsChildren}
-              className=" cursor-pointer bg-blue-500 p-2 text-white rounded-lg my-2 shadow-2xl shadow-blue-500"
+              className=" text-[24px] cursor-pointer bg-blue-500 p-2 text-white rounded-lg my-2 shadow-2xl shadow-blue-500"
             >
-              {"Let’s get started!"}
+              {" ¡Hablemos!"}
             </motion.button>
           </motion.div>
         </motion.header>

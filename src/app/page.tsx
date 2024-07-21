@@ -1,4 +1,3 @@
-import { CustomersWorkingWithUs } from "@/components/CustomersWorkingWithUs";
 import { HeroHome } from "@/components/HeroHome";
 import { LeadingCompaniesHome } from "@/components/LeadingCompaniesHome";
 import { ServicesOfferHome } from "@/components/ServicesOfferHome";
@@ -11,7 +10,7 @@ export default function Home() {
       <HeroHome></HeroHome>
       <ServicesOfferHome></ServicesOfferHome>
       <LeadingCompaniesHome></LeadingCompaniesHome>
-      <CustomersWorkingWithUs></CustomersWorkingWithUs>
+      {/* <CustomersWorkingWithUs></CustomersWorkingWithUs> */}
       <WeMake></WeMake>
       <WayOfBuilding></WayOfBuilding>
     </main>

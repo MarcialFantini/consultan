@@ -1,13 +1,46 @@
 import srcImage from "./Rectangle 17.png";
 import { WayItem } from "../WayItem";
+import { StaticImageData } from "next/image";
 
-const arr = [srcImage, srcImage, srcImage];
+const arr: {
+  src: string | StaticImageData;
+  title: string;
+  text1: string;
+  text2: string;
+  frase: string;
+}[] = [
+  {
+    src: srcImage,
+    title: "Nuestro Plan de Trabajo",
+    text1: "Para cumplir tu meta",
+    text2: "Construir el equipo adecuado para escalar",
+    frase:
+      "Encontrar el talento adecuado no es fácil. Te ayudamos a encontrar el talento que se adapta a tus necesidades, sigue tus procesos y se queda contigo a largo plazo, a diferencia de los freelancers.",
+  },
+  {
+    src: srcImage,
+    title: "Desarrollo Personalizado",
+    text1: "Creamos soluciones a medida",
+    text2: "Soluciones de Software Personalizadas",
+    frase:
+      "Nuestros desarrolladores se sumergen en tu visión, asegurando que cada línea de código se alinee con tus objetivos. Este enfoque personalizado fomenta la innovación y la eficiencia, llevando a resultados excepcionales.",
+  },
+  {
+    src: srcImage,
+    title: "Equipo Dedicado",
+    text1: "Expertos a tu disposición",
+    text2: "Equipos de Desarrollo Dedicados",
+    frase:
+      "Al construir equipos dedicados, aseguramos consistencia y una comprensión profunda de tu proyecto. Este modelo proporciona estabilidad y un entorno colaborativo, permitiéndonos entregar software de alta calidad a tiempo y dentro del presupuesto.",
+  },
+];
 
 export const WayOfBuilding = () => {
   return (
-    <section className="p-8 bg-white max-w-[1400px] w-[95%] m-auto overflow-hidden ">
+    <section className="  max-w-[1400px] w-[95%] m-auto overflow-hidden p-6">
       <h2 className="my-[60px] flex flex-col text-center text-2xl lg:text-[50px] gap-4">
-        Way of building<span className="font-bold">Great Software</span>
+        Nuestro plan de trabajo
+        <span className="font-bold">Para cumplir tu meta</span>
       </h2>
 
       <div className="flex flex-col gap-8">
@@ -15,7 +48,8 @@ export const WayOfBuilding = () => {
           return (
             <WayItem
               key={index + " way of building"}
-              item={{ src: item, toggle: index % 2 === 0, index: index + 1 }}
+              item={item}
+              index={index}
             ></WayItem>
           );
         })}

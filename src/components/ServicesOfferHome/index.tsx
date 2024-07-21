@@ -9,7 +9,7 @@ export const ServicesOfferHome = () => {
     <motion.div
       whileInView="onscreen"
       initial="offscreen"
-      viewport={{ once: true, amount: 0.9 }}
+      viewport={{ once: true, amount: 0.5 }}
       className="bg-[#F5F5F5]"
     >
       <section className="w-[95%] max-w-[1400px] m-auto py-8 overflow-hidden">
@@ -17,7 +17,7 @@ export const ServicesOfferHome = () => {
           variants={ServicesItemsVariant}
           className=" text-2xl lg:text-[50px] font-bold text-center my-8 "
         >
-          Services we offer
+          Nuestros Servicios
         </motion.h2>
 
         <div className="grid items-center justify-center">
