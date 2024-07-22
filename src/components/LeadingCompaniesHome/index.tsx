@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import srcImage from "./Abou-us-Video.png";
+import srcImage from "../../../public/image/home/nosotros.webp";
 import { motion } from "framer-motion";
 import { itemLeftVariant, itemRightVariant } from "@/Varians/homePage";
 import { linksEnums } from "@/constans/links";
@@ -28,9 +28,12 @@ export const LeadingCompaniesHome = () => {
             soluciones innovadoras y personalizadas para tu negocio.
           </p>
         </motion.header>
-        <motion.picture variants={itemRightVariant} className="max-h-[350px]">
+        <motion.picture
+          variants={itemRightVariant}
+          className="max-h-[350px] rounded-lg overflow-hidden shadow-lg"
+        >
           <Image
-            className="object-contain w-full h-full"
+            className=" object-cover w-full h-full"
             src={srcImage}
             alt="Descriptive alternative text"
           />
