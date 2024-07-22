@@ -1,3 +1,4 @@
+import { Footer } from "@/components/Footer/Footer";
 import { HeroHome } from "@/components/HeroHome";
 import { LeadingCompaniesHome } from "@/components/LeadingCompaniesHome";
 import { ServicesOfferHome } from "@/components/ServicesOfferHome";
@@ -13,6 +14,7 @@ export default function Home() {
       {/* <CustomersWorkingWithUs></CustomersWorkingWithUs> */}
       <WeMake></WeMake>
       <WayOfBuilding></WayOfBuilding>
+      <Footer />
     </main>
   );
 }
