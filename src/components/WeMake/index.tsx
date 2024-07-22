@@ -3,6 +3,7 @@ import { WeMakeItem } from "../WeMakeItem";
 import srcLanding from "../../../public/image/home/landing.webp";
 import srcBlog from "../../../public/image/home/blog.webp";
 import srcCommerce from "../../../public/image/home/ecommerce.webp";
+import { linksEnums } from "@/constans/links";
 
 const makeItem: {
   src: string | StaticImageData;
@@ -28,7 +29,7 @@ const makeItem: {
 
 export const WeMake = () => {
   return (
-    <section className="bg-[#F7F7FA] py-4  my-2 ">
+    <section id={linksEnums.PACKAGE} className="bg-[#F7F7FA] py-4  my-2 ">
       <h2 className="my-[60px] flex flex-col text-center text-2xl lg:text-[50px] gap-4">
         <span className="font-bold"> Nuestros paquetes Web</span>
       </h2>

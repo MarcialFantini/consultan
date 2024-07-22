@@ -3,10 +3,12 @@ import { ServicesItemsVariant, variantItems } from "@/Varians/homePage";
 import { CardServicesItem } from "../CardServicesItem";
 import { services } from "./dataServices";
 import { motion } from "framer-motion";
+import { linksEnums } from "@/constans/links";
 
 export const ServicesOfferHome = () => {
   return (
     <motion.div
+      id={linksEnums.SERVICES}
       whileInView="onscreen"
       initial="offscreen"
       viewport={{ once: true, amount: 0.5 }}

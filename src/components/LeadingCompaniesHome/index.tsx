@@ -3,10 +3,12 @@ import Image from "next/image";
 import srcImage from "./Abou-us-Video.png";
 import { motion } from "framer-motion";
 import { itemLeftVariant, itemRightVariant } from "@/Varians/homePage";
+import { linksEnums } from "@/constans/links";
 
 export const LeadingCompaniesHome = () => {
   return (
     <motion.section
+      id={linksEnums.NOSOTROS}
       initial="offscreen"
       whileInView="onscreen"
       viewport={{ once: true, amount: 0.8 }}

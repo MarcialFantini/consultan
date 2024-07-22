@@ -1,5 +1,6 @@
 "use client";
 import { links } from "@/constans/links";
+import { GoToElement } from "@/customHooks/GoToElement";
 import { motion, SVGMotionProps, Variants } from "framer-motion";
 import { JSX, RefAttributes, useState } from "react";
 
@@ -148,6 +149,7 @@ export const NavMobile = () => {
                 <motion.li
                   variants={itemVariants}
                   className=" px-4 text-3xl font-bold  "
+                  onClick={() => GoToElement(items.link)}
                   key={index}
                 >
                   {items.name}

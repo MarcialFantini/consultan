@@ -4,6 +4,7 @@ import { StaticImageData } from "next/image";
 import srcPlaning from "../../../public/image/home/planing.webp";
 import srcDeveloping from "../../../public/image/home/developing.webp";
 import srcTeam from "../../../public/image/home/team.webp";
+import { linksEnums } from "@/constans/links";
 
 const arr: {
   src: string | StaticImageData;
@@ -40,7 +41,10 @@ const arr: {
 
 export const WayOfBuilding = () => {
   return (
-    <section className="  max-w-[1400px] w-[95%] m-auto overflow-hidden p-6">
+    <section
+      id={linksEnums.HOW_WE_WORK}
+      className="  max-w-[1400px] w-[95%] m-auto overflow-hidden p-6"
+    >
       <h2 className="my-[60px] flex flex-col text-center text-2xl lg:text-[50px] gap-4">
         Nuestro plan de trabajo
         <span className="font-bold">Para cumplir tu meta</span>

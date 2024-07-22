@@ -7,10 +7,13 @@ import {
   itemsChildren,
   variantItems,
 } from "@/Varians/homePage";
+import { linksEnums } from "@/constans/links";
+import { GoToElement } from "@/customHooks/GoToElement";
 
 export const HeroHome = () => {
   return (
     <motion.section
+      id={linksEnums.HOME}
       initial="offscreen"
       whileInView="onscreen"
       viewport={{ once: true, amount: 0.8 }}
@@ -38,6 +41,7 @@ export const HeroHome = () => {
               de clase mundial para hacer realidad tu visión.
             </motion.p>
             <motion.button
+              onClick={() => GoToElement(linksEnums.CONTACT_US)}
               whileHover={{ scale: 1.1 }}
               variants={itemsChildren}
               className=" text-[24px] cursor-pointer bg-blue-500 p-2 text-white rounded-lg my-2 shadow-2xl shadow-blue-500"
