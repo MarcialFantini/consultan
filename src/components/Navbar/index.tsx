@@ -20,7 +20,7 @@ export const NavbarComponent = () => {
       <nav className="hidden lg:flex items-center justify-center ">
         <ul className="flex flex-row gap-4 items-center">
           {links.map((text, index) => {
-            return <li key={index + text}>{text}</li>;
+            return <li key={index}>{text.name}</li>;
           })}
         </ul>
       </nav>
@@ -31,7 +31,7 @@ export const NavbarComponent = () => {
         }}
         className=" hidden lg:flex text-white py-2 px-4 rounded-lg"
       >
-        Contact Us
+        ¡Hablemos!
       </button>
 
       <NavMobile></NavMobile>

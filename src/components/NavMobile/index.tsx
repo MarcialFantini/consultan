@@ -148,9 +148,9 @@ export const NavMobile = () => {
                 <motion.li
                   variants={itemVariants}
                   className=" px-4 text-3xl font-bold  "
-                  key={items + index}
+                  key={index}
                 >
-                  {items}
+                  {items.name}
                 </motion.li>
               );
             })}
