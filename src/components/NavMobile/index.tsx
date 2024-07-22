@@ -149,7 +149,10 @@ export const NavMobile = () => {
                 <motion.li
                   variants={itemVariants}
                   className=" px-4 text-3xl font-bold  "
-                  onClick={() => GoToElement(items.link)}
+                  onClick={() => {
+                    handlerToggle();
+                    GoToElement(items.link);
+                  }}
                   key={index}
                 >
                   {items.name}

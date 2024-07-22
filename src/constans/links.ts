@@ -13,4 +13,5 @@ export const links = [
   { name: "Nosotros", link: linksEnums.NOSOTROS },
   { name: "Paquetes", link: linksEnums.PACKAGE },
   { name: "Plan de trabajo", link: linksEnums.HOW_WE_WORK },
+  { name: "Contacto", link: linksEnums.CONTACT_US },
 ];
