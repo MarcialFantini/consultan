@@ -4,18 +4,20 @@
 import { links, linksEnums } from "@/constans/links";
 import { NavMobile } from "../NavMobile";
 import { GoToElement } from "@/customHooks/GoToElement";
+import srcIcon from "../../../public/image/home/icon.svg";
 
+import Image from "next/image";
 export const NavbarComponent = () => {
   return (
     <header className=" z-50 relative top-0 flex flex-row justify-around p-4 shadow-lg">
       <div className="flex flex-row items-center">
-        {/* <picture className="h-[30px] w-auto">
+        <picture className="h-[30px] w-auto">
           <Image
             className=" object-contain w-full h-full"
-            src={srcImage}
+            src={srcIcon}
             alt=""
           ></Image>
-        </picture> */}
+        </picture>
         <h1 className=" text-[28px] font-bold">Fixant</h1>
       </div>
 

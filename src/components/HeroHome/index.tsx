@@ -37,8 +37,8 @@ export const HeroHome = () => {
               variants={itemsChildren}
               className="text-[24px] text-[#4A5568]"
             >
-              Te ayudamos a construir y gestionar un equipo de desarrolladores
-              de clase mundial para hacer realidad tu visión.
+              Te ayudamos a mejorar desde tu imagen a tus sistemas de trabajo,
+              con herramientas de alta calidad.
             </motion.p>
             <motion.button
               onClick={() => GoToElement(linksEnums.CONTACT_US)}
