@@ -15,17 +15,17 @@ const arr: {
 }[] = [
   {
     src: srcPlaning,
-    title: "Nuestro Plan de Trabajo",
-    text1: "Para cumplir tu meta",
-    text2: "Construir el equipo adecuado para escalar",
+    title: "Nuestra forma de trabajo",
+    text1: "Analizamos tu negocio y proponemos mejoras",
+    text2: "Llevando a cabo todo con las mejores practicas",
     frase:
-      "Encontrar el talento adecuado no es fácil. Te ayudamos a encontrar el talento que se adapta a tus necesidades, sigue tus procesos y se queda contigo a largo plazo, a diferencia de los freelancers.",
+      "En primera instancia es fundamental el análisis completo del negocio para poder llegar a soluciones y mejoras precisas.",
   },
   {
     src: srcDeveloping,
     title: "Desarrollo Personalizado",
     text1: "Creamos soluciones a medida",
-    text2: "Soluciones de Software Personalizadas",
+    text2: "Nos concentramos en tu negocio y tu visión",
     frase:
       "Nuestros desarrolladores se sumergen en tu visión, asegurando que cada línea de código se alinee con tus objetivos. Este enfoque personalizado fomenta la innovación y la eficiencia, llevando a resultados excepcionales.",
   },
@@ -33,9 +33,9 @@ const arr: {
     src: srcTeam,
     title: "Equipo Dedicado",
     text1: "Expertos a tu disposición",
-    text2: "Equipos de Desarrollo Dedicados",
+    text2: "Especializados en el mundo de la web",
     frase:
-      "Al construir equipos dedicados, aseguramos consistencia y una comprensión profunda de tu proyecto. Este modelo proporciona estabilidad y un entorno colaborativo, permitiéndonos entregar software de alta calidad a tiempo y dentro del presupuesto.",
+      "Contamos con un equipo de profesionales altamente cualificado, donde cada integrante es especialista en su campo.",
   },
 ];
 
